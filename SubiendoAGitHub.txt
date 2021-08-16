@@ -1,0 +1,42 @@
+    1  ls
+    2  clear
+    3  ls
+    4  mkdir Practico2
+    5  cd Practico2/
+    6  vim p2_1.sh
+    7  ls
+    8  sh p2_1.sh 
+    9  vim p2_2.sh
+   10  sh p2_2.sh 
+   11  vim p2_4.sh
+   12  sh p2_4.sh 
+   13  vim p2_5.sh
+   14  sh p2_5.sh 
+   15  sh p2_5.sh ls
+   16  git ini
+   17  git init
+   18  yum git
+   19  sudo yum install git
+   20  git init
+   21  git add .
+   22  git commit -m "subir practico 2"
+   23  ls -al ~/.ssh
+   24  ssh-keygen -t rsa -b 4096 -C "martinez.fl@gmail.com"
+   25  eval "$(ssh-agent -s)"
+   26  ssh-add ~/.ssh/id_rsa
+   27  sudo apt-get install xclip
+   28  sudo yum install xclip
+   29  xclip -sel clip < ~/.ssh/id_rsa.pub
+   30  cd ~/.ssh/id_rsa.pub
+   31  cd ~/
+   32  ls
+   33  cd .ssh
+   34  ls
+   35  cat id_rsa.pub 
+   36  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCWWK5MPugjGHVA5xtQx7RgLHsMCcd67gzZMY39XVQFKTR4E1zq8DvUuXJv9qCFfl7XM133d8rc55329uXvBobaLP6eG+7TSonLef4B7/bwrwKhaQBxEcL6xL0E/x4QLOps+E56eVDGP9JFkkOrUNpNmh9x1KN1qa+v+VUVNoNHyDh3KO65/14ccKviceTxUHXSE944O3pFjuXXr+KA/B/2xuDnLLobnPLRMmg6SIcnSZZjQ85iq5+e2MlIl8n0bH15Szl2gqG1Az12N5rzUsl0tHfJnAuk7FBmKtzEPwaQLYSUAZtPNFeQZ1Ss75mAxT93UGSEQEU7tverIYxnfLjt++8MFdwz0y5wibi20IWxIyTP6RfstM0/4C5jzmShFldiYjDKHU9ttjpzqvvkib398Z1UGlPPK+p88jHbzculO47e+q3yn9oPgs3Eo7EFEQ3yVJp/G37pIsZpy93Zstbs7+3PdFWOBpEO/2Nn5/Tkag88ml2MVdf615mNUxWVtug0qplnJyVyA2ysBYJzUdNRoNpGQgKn7sfCmK5zUI0kPfbVfhl5vs6uxwo0nokngisdWfK0bs+iWr3CzuDJ2oVB1HYKEOqpOkbFy9DrHb/pbtB96MeqgetMC3cybgk0mC8is+065fMO9FsW0EbsunNMGzqeFBhGE8hgxuEklrcBmw== martinez.fl@gmail.com
+   37  cd ..
+   38  ls
+   39  cd Practico2/
+   40  git remote add origin git@github.com:flmartinez07/so.git
+   41  git push -u origin master
+   42  history > SubiendoAGitHub.txt
